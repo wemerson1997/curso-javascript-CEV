@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex004</title>
+    <style>
+        body {
+           font: normal 20pt arial; 
+        }
+    </style>
+</head>
+<h1>olá, mundo</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab esse repudiandae nisi error quasi porro ut, doloremque dolores non impedit animi consectetur neque ipsum veritatis hic illum nihil aperiam cupiditate.</p>
+<body>
+    <script>
+        var nom = window.prompt('Qual seu nome? ')
+        var salario = window.prompt('digite seu salario: ')
+        //document.write(`Seu nome tem ${nom.length} letras`)
+        //document.write(` e sseu nome é ${nom.toUpperCase()} e você tem ${idade} anos`)
+        window.alert('Seu salário é de' + salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}))
+
+    </script>
+</body>
+</html>
